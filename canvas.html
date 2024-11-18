@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="controls">
+        <button onclick="addText()">Add Text</button>
+        <button onclick="moveText()">Move Text</button>
+        <button onclick="changeFont()">Change Font</button>
+        <button onclick="changeSize()">Change Size</button>
+        <button onclick="changeStyle()">Change Style</button>
+        <button onclick="undo()">Undo</button>
+        <button onclick="redo()">Redo</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
